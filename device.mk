@@ -983,3 +983,6 @@ PRODUCT_PACKAGES += \
 
 # Gapps
 # $(call inherit-product, vendor/gapps/common/common-vendor.mk)
+
+# Microg
+$(call inherit-product, vendor/microg/microg-vendor.mk_)

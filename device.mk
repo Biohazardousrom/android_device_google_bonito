@@ -980,3 +980,6 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# Gapps
+# $(call inherit-product, vendor/gapps/common/common-vendor.mk)

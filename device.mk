@@ -985,4 +985,4 @@ PRODUCT_PACKAGES += \
 # $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 
 # Microg
-$(call inherit-product, vendor/microg/microg-vendor.mk_)
+$(call inherit-product, vendor/microg/microg-vendor.mk)

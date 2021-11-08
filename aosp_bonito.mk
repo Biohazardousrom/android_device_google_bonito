@@ -70,5 +70,5 @@ PRODUCT_MODEL := Pixel 3a XL
 # Match stock product info
 PRODUCT_OVERRIDE_INFO := true
 PRODUCT_OVERRIDE_NAME := bonito
-PRODUCT_OVERRIDE_FINGERPRINT := google/bonito/bonito:11/RP1A.201005.004/6782484:user/release-keys
-PRODUCT_OVERRIDE_DESC := bonito-user 11 RP1A.201005.004 6782484 release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bonito/bonito:12/SP1A.211105.002/7743617:user/release-keys
+PRODUCT_OVERRIDE_DESC := bonito-user 12 SP1A.211105.002 7743617 release-keys

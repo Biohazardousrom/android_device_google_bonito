@@ -70,5 +70,5 @@ PRODUCT_MODEL := Pixel 3a
 # Match stock product info
 PRODUCT_OVERRIDE_INFO := true
 PRODUCT_OVERRIDE_NAME := sargo
-PRODUCT_OVERRIDE_FINGERPRINT := google/sargo/sargo:11/RP1A.201005.004/6782484:user/release-keys
-PRODUCT_OVERRIDE_DESC := sargo-user 11 RP1A.201005.004 6782484 release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/sargo/sargo:12/SP1A.211105.002/7743617:user/release-keys
+PRODUCT_OVERRIDE_DESC := sargo-user 12 SP1A.211105.002 7743617 release-keys

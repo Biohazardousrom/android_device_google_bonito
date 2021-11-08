@@ -20,14 +20,14 @@ ifeq ($(USES_DEVICE_GOOGLE_B4S4),true)
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
-CNE_SYMLINK := $(TARGET_OUT)/etc/cne
-$(CNE_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-	@echo "CNE directory link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /product/etc/cne $@
+#CNE_SYMLINK := $(TARGET_OUT)/etc/cne
+#$(CNE_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+#	@echo "CNE directory link: $@"
+#	@mkdir -p $(dir $@)
+#	@rm -rf $@
+#	$(hide) ln -sf /product/etc/cne $@
 
-ALL_DEFAULT_INSTALLED_MODULES += $(CNE_SYMLINK)
+#ALL_DEFAULT_INSTALLED_MODULES += $(CNE_SYMLINK)
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
 IMS_SYMLINKS := $(addprefix $(TARGET_OUT)/app/ims/lib/arm64/,$(notdir $(IMS_LIBS)))

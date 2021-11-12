@@ -30,6 +30,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google_nos/host/android \
     vendor/google_nos/test/system-test-harness
 
+# Include sensors soong namespace
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/sensors \
+    vendor/google/tools/sensors
+
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 

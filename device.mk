@@ -119,6 +119,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.firstboot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.firstboot.sh \
     $(LOCAL_PATH)/init.ramoops.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.ramoops.sh
 
+# Pixel init
+PRODUCT_COPY_FILES += \
+    hardware/google/pixel/common/init.pixel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.pixel.rc
+
 # Edge Sense initialization script.
 # TODO: b/67205273
 PRODUCT_COPY_FILES += \

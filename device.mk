@@ -942,10 +942,79 @@ include hardware/google/pixel/citadel/citadel.mk
 # Pixel Logger
 include hardware/google/pixel/PixelLogger/PixelLogger.mk
 
-# Missing vendor packages
+# system_ext
 PRODUCT_PACKAGES += \
+    libdisplayconfig.qti \
+    vendor.display.config@1.0 \
+    vendor.display.config@1.1 \
+    vendor.display.config@1.2 \
+    vendor.display.config@1.3 \
+    vendor.display.config@1.4 \
+    vendor.display.config@1.5 \
+    vendor.display.config@1.6 \
+    vendor.display.config@1.7 \
+    vendor.display.config@1.8 \
+    vendor.display.config@2.0 \
+    vendor.qti.hardware.systemhelper@1.0
+
+# vendor
+PRODUCT_PACKAGES += \
+    android.hardware.identity_credential.xml \
+    android.frameworks.cameraservice.common@2.0.vendor \
+    android.frameworks.cameraservice.device@2.0.vendor \
+    android.frameworks.cameraservice.device@2.1.vendor \
+    android.frameworks.cameraservice.service@2.0.vendor \
+    android.frameworks.cameraservice.service@2.1.vendor \
+    android.frameworks.cameraservice.service@2.2.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
+    android.frameworks.stats@1.0.vendor \
+    android.hardware.authsecret@1.0.vendor \
+    android.hardware.biometrics.face@1.0.vendor \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
+    android.hardware.biometrics.fingerprint@2.2.vendor \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.confirmationui@1.0.vendor \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.identity-support-lib.vendor \
+    android.hardware.identity_credential.xml.vendor \
+    android.hardware.input.classifier@1.0.vendor \
+    android.hardware.input.common@1.0.vendor \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.media.c2@1.0.vendor \
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
+    android.hardware.neuralnetworks@1.2.vendor \
+    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.oemlock@1.0.vendor \
+    android.hardware.power-V1-ndk_platform.vendor \
+    android.hardware.radio.config@1.0.vendor \
+    android.hardware.radio.config@1.1.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.radio@1.2.vendor \
+    android.hardware.radio@1.3.vendor \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.sensors@1.0.vendor \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    android.hardware.sensors@2.0.vendor \
+    android.hardware.sensors@2.1.vendor \
+    android.hardware.weaver@1.0.vendor \
+    android.hardware.wifi@1.1.vendor \
+    android.hardware.wifi@1.2.vendor \
+    android.hardware.wifi@1.3.vendor \
+    android.hardware.wifi@1.4.vendor \
+    android.hardware.wifi@1.5.vendor \
+    android.system.net.netd@1.0.vendor \
+    android.system.net.netd@1.1.vendor \
     chre \
     ese_spi_nxp:64 \
+    hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor \
+    hardware.google.bluetooth.sar@1.0.vendor \
     hardware.google.light@1.0.vendor \
     libavservices_minijail_vendor:32 \
     libcodec2_hidl@1.0.vendor:32 \
@@ -954,7 +1023,7 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libhidltransport.vendor \
     libhwbinder.vendor \
-    libjson \
+    libjson.vendor \
     libkeymaster_messages.vendor:64 \
     libkeymaster_portable.vendor:64 \
     libnetfilter_conntrack:64 \
@@ -979,7 +1048,19 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0.vendor \
     vendor.display.config@1.1.vendor \
     vendor.display.config@1.2.vendor \
-    vendor.display.config@1.3.vendor
+    vendor.display.config@1.3.vendor \
+    vendor.display.config@1.4.vendor \
+    vendor.display.config@1.5.vendor \
+    vendor.display.config@1.6.vendor \
+    vendor.display.config@1.7.vendor \
+    vendor.display.config@1.8.vendor \
+    vendor.display.config@1.9.vendor \
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor \
+    vendor.qti.hardware.display.mapper@1.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.systemhelper@1.0.vendor
 
 # EUICC
 PRODUCT_COPY_FILES += \

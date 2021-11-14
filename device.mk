@@ -1069,6 +1069,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/bonito/permissions/privapp-permissions-aosp-extended.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-aosp-extended.xml
 
+# Fix for aosp not building libjson.so
+PRODUCT_COPY_FILES += \
+    device/google/bonito/lib/vendor/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjson.so
+PRODUCT_COPY_FILES += \
+    device/google/bonito/lib/vendor/lib64/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjson.so
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
